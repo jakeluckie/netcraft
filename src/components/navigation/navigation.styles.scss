@@ -1,0 +1,33 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.131);
+  max-width: 100%;
+  color: white;
+  font-size: var(--font-size-lg);
+  padding: 0 60px;
+
+  .nc-logo { 
+    display: flex;
+    align-items: center;
+    img {
+      width: 200px;
+      max-width: 11rem;
+    }
+  }
+  
+  .nav-links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    column-gap: 48px;
+
+    li {
+      height: auto;
+      padding-top: 1.8rem;
+      padding-bottom: 1.8rem;
+    }
+  }
+}
