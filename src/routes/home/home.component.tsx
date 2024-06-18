@@ -1,7 +1,13 @@
+import Navigation from "../../components/navigation/navigation.component"
+
 const Home = () => {
+  document.title = 'Netcraft - Bleeble'
   return (
-    <h1>Netcraft - Homepage</h1>
-  )
-}
+    <>
+    <Navigation />
+      <h1>Netcraft - Homepage</h1>
+    </>
+  );
+};
 
 export default Home;
