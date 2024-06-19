@@ -1,4 +1,32 @@
+#root {}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+.content-padding {
+  display: flex;
+  flex-flow: row;
+  padding: 0 400px;
+  padding-top: 100px;
+}
+.hero-h1 {
+  font-size: var(--font-size-3xl);
+  color: white;
+  border-bottom: 5px solid yellow;
+}
+.hero-text {
+  font-size: var(--font-size-2xl);
+  color: white;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 479px) {
+  .content-padding {
+    padding: 0 40px;
+    flex-flow: column;
+  }
+
+  .hero-text {}
 }

@@ -34,11 +34,11 @@ a:hover {
 
 body {
   margin: 0;
+  display: flex;
 }
 
 h1 {
   font-size: var(--font-size-4xl);
-  margin-bottom: var(--font-size-md);
 }
 
 button {
