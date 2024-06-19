@@ -17,7 +17,7 @@
   border-bottom: 5px solid yellow;
 }
 .hero-text {
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-xl);
   color: white;
   font-weight: 200;
 }

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import netcraftLogo from "../../assets/netcraft-logo.svg";
+import netcraftLogo from "../../assets/nc-lg.webp";
 
 import './navigation.styles.scss';
 
