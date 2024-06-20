@@ -1,31 +1,30 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import netcraftLogo from "../../assets/nc-lg.webp";
 
-import './navigation.styles.scss';
+import "./navigation.styles.scss";
 
 const Navigation = () => {
   return (
-    <header className='navigation'>
-      <Link className='nc-logo' to={'/'}><img src={netcraftLogo} /></Link>
-      <ul className='nav-links-container'>
-        <li>
-          VOIP Systems
-        </li>
-        <li>
-          Training
-        </li>
-        <li>
-          Internet Connections
-        </li>
-        <li>
-          About
-        </li>
-        <li>
-          Contact
-        </li>
+    <header className="navigation">
+      <Link className="nc-logo" to={"/"}>
+        <img src={netcraftLogo} />
+      </Link>
+      <div className="hamburger-menu">
+        <svg viewBox="0 0 100 70" width="40" height="40">
+          <rect width="100" height="10"></rect>
+          <rect y="30" width="100" height="10"></rect>
+          <rect y="60" width="100" height="10"></rect>
+        </svg>
+      </div>
+      <ul className="nav-links-container">
+        <li>VOIP Systems</li>
+        <li>Training</li>
+        <li>Internet Connections</li>
+        <li>About</li>
+        <li>Contact</li>
       </ul>
     </header>
-  )
-}
+  );
+};
 
 export default Navigation;

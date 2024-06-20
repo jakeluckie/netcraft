@@ -19,6 +19,10 @@
       }
     }
   }
+
+  .hamburger-menu {
+    display: none;
+  }
   
   .nav-links-container {
     display: flex;
@@ -26,11 +30,33 @@
     align-items: center;
     list-style: none;
     column-gap: 48px;
-
+  
     li {
       height: auto;
       padding-top: 1.8rem;
       padding-bottom: 1.8rem;
     }
   }
+}
+
+  
+@media screen and (max-width: 479px) {
+  .navigation {
+  padding: 0 40px;
+  align-items: center;
+
+  .hamburger-menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+    svg {
+      width: 70%;
+      fill: #FFF;
+    }
+  }
+
+  .nav-links-container {
+    display: none;
+  }
+}
 }
