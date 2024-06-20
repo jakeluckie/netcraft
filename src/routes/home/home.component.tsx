@@ -8,13 +8,14 @@ const Home = () => {
       <section className="home-container">
         <Navigation />
         <div className="content-padding">
-          <div>
-          <h1 className="hero-h1">VOIP Phone Systems</h1>
-          <p className="hero-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
-            eligendi minima deleniti in ea dolores laudantium dolorum, assumenda
-            perspiciatis dolore vero fugit recusandae?
-          </p>
+          <div className="hero-container">
+            <h1 className="hero-h1">VOIP Phone Systems</h1>
+            <p className="hero-text">
+              Looking for a smooth transition to clear communication and
+              reliable technology? Netcraft can help. We specialise in VoIP
+              systems, internet installation, and user-friendly training.
+            </p>
+            <button>CALL US NOW</button>
           </div>
           <div></div>
         </div>

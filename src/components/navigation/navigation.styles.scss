@@ -30,6 +30,7 @@
     align-items: center;
     list-style: none;
     column-gap: 48px;
+    margin: 0;
   
     li {
       height: auto;
@@ -42,16 +43,20 @@
   
 @media screen and (max-width: 479px) {
   .navigation {
-  padding: 0 40px;
+  padding: 0 0 0 40px;
   align-items: center;
 
   .hamburger-menu {
     display: flex;
     justify-content: flex-end;
-    padding: 20px 0;
+    padding: 20px 26px;
     svg {
-      width: 70%;
+      width: 30px;
+      height: 30px;
       fill: #FFF;
+    }
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.091);
     }
   }
 

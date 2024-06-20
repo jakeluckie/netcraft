@@ -17,10 +17,9 @@ const Navigation = () => {
         </svg>
       </div>
       <ul className="nav-links-container">
-        <li>VOIP Systems</li>
-        <li>Training</li>
-        <li>Internet Connections</li>
+        <li>Solutions</li>
         <li>About</li>
+        <li>Testimonials</li>
         <li>Contact</li>
       </ul>
     </header>

@@ -5,11 +5,12 @@
 .content-padding {
   display: flex;
   flex-flow: row;
-  padding: 0 400px;
-  padding-top: 100px;
+  padding: 130px 350px;
 }
 .hero-h1 {
+  display: inline;
   font-size: var(--font-size-3xl);
+  margin-bottom: var(--font-size-xl);
   color: white;
   border-bottom: 5px solid yellow;
 }
@@ -39,8 +40,7 @@
 
 @media screen and (max-width: 479px) {
   .content-padding {
-    padding: 0 40px;
-    padding-top: 50px;
+    padding: 50px 40px;
     flex-flow: column;
   }
 

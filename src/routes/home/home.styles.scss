@@ -6,7 +6,16 @@
     ),
     linear-gradient(134deg, rgb(85, 0, 255) 43%, rgba(255, 255, 255, 0)),
     url(../../assets/Business-VoIP-Phone-Service.jpg);
-  min-height: 70vh;
-  background-position: 0px 0px, 0px 0px, 50% 100%;
+  background-position: left 35% bottom 15%;
   background-size: cover;
+}
+
+.hero-container {
+  width: 530px;
+}
+
+@media screen and (max-width: 479px) {
+  .hero-container {
+    width: 100%;
+  }
 }
