@@ -126,20 +126,37 @@
         top: 0;
         z-index: 3;
       }
-      .solutions-dropdown, .nav-link {
+      .solutions-dropdown,
+      .nav-link {
         color: black;
         width: 60%;
         padding-left: 0;
         border-bottom: solid 1px rgb(85, 0, 255, 10%);
       }
       .solutions-dropdown .solutions-dropdown-button {
+        padding-bottom: 1rem;
         color: black;
+      }
+      .solutions-dropdown {
+        width: calc(60% + 1rem);
+        padding-right: 0;
+        padding-bottom: 0;
+        border: none;
+        .solutions-dropdown-content {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin: 0;
+          .nav-sub-link {
+            border-color:#f0eef2;
+          }
+        }
       }
     }
   }
   .mobile-bg-clickable.open {
     display: block;
-    position: absolute;
+    position: fixed;
     background-color: rgba(107, 44, 216, 0.289);
     width: 100vw;
     height: 100vh;
