@@ -141,14 +141,27 @@
         width: calc(60% + 1rem);
         padding-right: 0;
         padding-bottom: 0;
-        border: none;
         .solutions-dropdown-content {
           display: flex;
           flex-direction: column;
           position: relative;
           margin: 0;
           .nav-sub-link {
-            border-color:#f0eef2;
+            display: flex;
+            column-gap: 0.5rem;
+            font-weight: 300;
+            padding-left: 0;
+            padding-top: 0;
+            border-color: #f0eef2;
+            background-color: #f0eef2;
+            &:before {
+              display: block;
+              content: "― ";
+              color: rgb(208, 208, 208);
+            }
+            &:last-child {
+              padding-bottom: 1.5rem;
+            }
           }
         }
       }
