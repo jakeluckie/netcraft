@@ -151,8 +151,7 @@
             column-gap: 0.5rem;
             font-weight: 300;
             padding-left: 0;
-            padding-top: 0;
-            border-color: #f0eef2;
+            border: 0;
             background-color: #f0eef2;
             &:before {
               display: block;
@@ -160,7 +159,7 @@
               color: rgb(208, 208, 208);
             }
             &:last-child {
-              padding-bottom: 1.5rem;
+              padding-bottom: 2.5rem;
             }
           }
         }
