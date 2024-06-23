@@ -24,20 +24,6 @@
   display: none;
 }
 
-.nav-links-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  list-style: none;
-  column-gap: 48px;
-
-  li {
-    height: auto;
-    padding-top: 1.8rem;
-    padding-bottom: 1.8rem;
-  }
-}
-
 @media screen and (max-width: 479px) {
   .content-padding {
     padding: 50px 40px;
