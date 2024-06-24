@@ -5,7 +5,7 @@
 .content-padding {
   display: flex;
   flex-flow: row;
-  padding: 130px 350px;
+  padding: 130px 20%;
 }
 .hero-h1 {
   display: inline;
