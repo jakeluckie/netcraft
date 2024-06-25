@@ -5,6 +5,7 @@ import "./App.css";
 import PageNotFound from "./routes/not-found/pagenotfound.component";
 
 function App() {
+  document.title = "Page not found";
   return (
     <>
       <Routes>
