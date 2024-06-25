@@ -1,4 +1,9 @@
 [[redirects]]
-  from = "*"
+  from = "/voip-systems"
   to = "/"
   status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 404
