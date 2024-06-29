@@ -1,4 +1,5 @@
 import Navigation from "../../components/navigation/navigation.component";
+import SolutionsSection from "../../components/sections/solutions/solutions-section.component";
 import "./home.styles.scss";
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
     <>
       <section className="home-container">
         <Navigation />
-        <div className="content-padding">
+        <div className="home-hero content-padding">
           <div className="hero-container">
             <h1 className="hero-h1">VOIP Phone Systems</h1>
             <p className="hero-text">
@@ -20,6 +21,7 @@ const Home = () => {
           <div></div>
         </div>
       </section>
+      <SolutionsSection />
     </>
   );
 };

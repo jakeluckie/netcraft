@@ -5,8 +5,9 @@
 .content-padding {
   display: flex;
   flex-flow: row;
-  padding: 130px 20%;
+  padding: 0 20%;
 }
+
 .hero-h1 {
   display: inline;
   font-size: var(--font-size-3xl);
@@ -14,6 +15,7 @@
   color: white;
   border-bottom: 5px solid yellow;
 }
+
 .hero-text {
   font-size: var(--font-size-xl);
   color: white;
