@@ -1,3 +1,26 @@
+.solutions-container {
+  padding-bottom: 5rem;
+  .solutions-section-intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .solutions-section-title {
+      display: inline;
+      margin-left: auto;
+      margin-right: auto;
+      border-bottom: 5px solid yellow;
+      font-size: var(--font-size-3xl);
+      color: rgb(44, 44, 44);
+    }
+    .solutions-section-text {
+      margin-top: 0;
+      margin-bottom: 2rem;
+      color: rgb(55, 51, 51);
+      font-weight: 400;
+      font-size: var(--font-size-xl);
+    }
+  }
+}
 .solution-cards-container {
   display: flex;
   flex-flow: row;
