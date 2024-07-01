@@ -1,5 +1,10 @@
 .solutions-container {
   padding-bottom: 5rem;
+  background-image: url("/netcraft-logomark.svg");
+  background-color: rgb(246, 239, 231);
+  background-repeat: no-repeat;
+  background-position: left 35% bottom 50%;
+  background-size: 95%;
   .solutions-section-intro {
     display: flex;
     flex-direction: column;
@@ -24,5 +29,20 @@
 .solution-cards-container {
   display: flex;
   flex-flow: row;
-  column-gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1921px) {
+  .solutions-container {
+    .solutions-section-intro {
+      .solutions-section-title {
+        font-size: var(--font-size-3xl);
+        color: rgb(44, 44, 44);
+      }
+      .solutions-section-text {
+        font-size: 1.7rem;
+      }
+    }
+  }
 }

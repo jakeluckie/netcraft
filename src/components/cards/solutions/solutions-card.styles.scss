@@ -1,13 +1,14 @@
 .solutions-card {
   display: flex;
+  width: 22%;
   flex-direction: column;
   border-radius: 0.7rem;
-  background-image:linear-gradient(
-    296deg,
-    rgba(0, 157, 255, 0.54),
-    rgba(255, 255, 255, 0) 22%
-  ),
-  linear-gradient(134deg, rgb(85, 0, 255) 43%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+      296deg,
+      rgba(0, 157, 255, 0.54),
+      rgba(255, 255, 255, 0) 22%
+    ),
+    linear-gradient(134deg, rgb(85, 0, 255) 43%, rgba(255, 255, 255, 0));
   padding: 0.5rem;
   .solutions-card-img {
     max-width: 100%;
@@ -34,6 +35,30 @@
       margin-top: 0.7rem;
       font-size: var(--font-size-lg);
       color: rgb(59, 12, 152);
+    }
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  .solutions-card {
+    border-radius: 1rem;
+  padding: 0.7rem;
+    .solutions-card-img {
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+    }
+    .solutions-card-content {
+      padding: 0 1.2rem;
+      border-bottom-left-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+      .solutions-card-title {
+        font-size: 2.1rem;
+      }
+      .solutions-card-text {
+        margin-top: 1rem;
+        font-size: var(--font-size-2xl);
+        color: rgb(59, 12, 152);
+      }
     }
   }
 }

@@ -9,19 +9,19 @@ const solutionsCardInfo: { img: string; title: string; description: string }[] =
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident aperiam excepturi et a nulla."
   },
   {
-    img: "/solutions-images/nc-voip-systems-card-img.webp",
+    img: "/solutions-images/nc-internet-connections-card-img.webp",
     title: "Internet Connections",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident aperiam excepturi et a nulla."
   },
   {
-    img: "/solutions-images/nc-voip-systems-card-img.webp",
+    img: "/solutions-images/nc-training-card-img.webp",
     title: "Training",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident aperiam excepturi et a nulla."
   },
   {
-    img: "/solutions-images/nc-voip-systems-card-img.webp",
+    img: "/solutions-images/nc-consultancy-card-img.webp",
     title: "Consultancy",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident aperiam excepturi et a nulla."
