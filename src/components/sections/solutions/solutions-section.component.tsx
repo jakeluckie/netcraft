@@ -1,30 +1,39 @@
 import SolutionsCard from "../../cards/solutions/solutions-card.component";
 import "../../sections/solutions/solutions-section.styles.scss";
 
-const solutionsCardInfo: { img: string; title: string; description: string }[] = [
+const solutionsCardInfo: {
+  img: string;
+  title: string;
+  description: string;
+  link: string;
+}[] = [
   {
     img: "/solutions-images/nc-voip-systems-card-img.webp",
     title: "VOIP Systems",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident aperiam excepturi et a nulla."
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident aperiam excepturi et a nulla.",
+    link: "/voip-systems"
   },
   {
     img: "/solutions-images/nc-internet-connections-card-img.webp",
     title: "Internet Connections",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident aperiam excepturi et a nulla."
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident aperiam excepturi et a nulla.",
+    link: "/internet-connections"
   },
   {
     img: "/solutions-images/nc-training-card-img.webp",
     title: "Training",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident aperiam excepturi et a nulla."
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident aperiam excepturi et a nulla.",
+    link: "/training"
   },
   {
     img: "/solutions-images/nc-consultancy-card-img.webp",
     title: "Consultancy",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident aperiam excepturi et a nulla."
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident aperiam excepturi et a nulla.",
+    link: "/consultancy"
   }
 ];
 
@@ -43,10 +52,10 @@ const SolutionsSection = () => {
         </div>
       </div>
       <div className="solution-cards-container content-padding">
-        <SolutionsCard solutions={solutionsCardInfo[0]}/>
-        <SolutionsCard solutions={solutionsCardInfo[1]}/>
-        <SolutionsCard solutions={solutionsCardInfo[2]}/>
-        <SolutionsCard solutions={solutionsCardInfo[3]}/>
+        <SolutionsCard solutions={solutionsCardInfo[0]} />
+        <SolutionsCard solutions={solutionsCardInfo[1]} />
+        <SolutionsCard solutions={solutionsCardInfo[2]} />
+        <SolutionsCard solutions={solutionsCardInfo[3]} />
       </div>
     </section>
   );
