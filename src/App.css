@@ -27,8 +27,8 @@
 
 @media screen and (max-width: 479px) {
   .content-padding {
-    padding: 50px 40px;
-    flex-flow: column;
+    padding: 10px 40px;
+    /* flex-flow: column; */
   }
 
   .hamburger-menu {

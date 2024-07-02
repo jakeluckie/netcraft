@@ -18,7 +18,7 @@
   .solutions-card-content {
     display: flex;
     flex-direction: column;
-    height: 55%;
+    flex-grow: 1;
     padding: 0 1rem;
     text-align: center;
     background-color: rgb(246, 239, 231);
@@ -39,10 +39,34 @@
   }
 }
 
+@media screen and (max-width: 1560px) {
+  .solutions-card {
+    width: 35%;
+    .solutions-card-img {
+
+    }
+    .solutions-card-content {
+
+      .solutions-card-title {
+
+      }
+      .solutions-card-text {
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .solutions-card {
+    width: 65%;
+  }
+}
+
 @media screen and (min-width: 1921px) {
   .solutions-card {
     border-radius: 1rem;
-  padding: 0.7rem;
+    padding: 0.7rem;
     .solutions-card-img {
       border-top-left-radius: 0.5rem;
       border-top-right-radius: 0.5rem;
@@ -60,5 +84,11 @@
         color: rgb(59, 12, 152);
       }
     }
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .solutions-card {
+    width: 75%;
   }
 }

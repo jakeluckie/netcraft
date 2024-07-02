@@ -33,6 +33,14 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1560px) {
+  .solution-cards-container {
+    column-gap: 1rem;
+    row-gap: 1rem;
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width: 1921px) {
   .solutions-container {
     .solutions-section-intro {
@@ -44,5 +52,11 @@
         font-size: 1.7rem;
       }
     }
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .solution-cards-container {
+    justify-content: center;
   }
 }
