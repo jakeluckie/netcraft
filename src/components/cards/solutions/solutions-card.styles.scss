@@ -89,6 +89,17 @@
 
 @media screen and (max-width: 479px) {
   .solutions-card {
-    width: 75%;
+    width: 100%;
+    .solutions-card-content {
+      padding: 1rem 1.2rem;
+      .solutions-card-title {
+        font-size: 2.1rem;
+      }
+      .solutions-card-text {
+        margin-top: 1rem;
+        font-size: var(--font-size-2xl);
+        color: rgb(59, 12, 152);
+      }
+    }
   }
 }
