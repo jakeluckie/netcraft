@@ -10,6 +10,10 @@
     ),
     linear-gradient(134deg, rgb(85, 0, 255) 43%, rgba(255, 255, 255, 0));
   padding: 0.5rem;
+  &:hover {
+    box-shadow: 1px 1px 4px rgba(57, 9, 152, 0.248),
+      4px 4px 9px rgba(25, 9, 58, 0.224), 4px 4px 14px rgba(25, 9, 58, 0.166);
+  }
   .solutions-card-img {
     max-width: 100%;
     border-top-left-radius: 0.3rem;
@@ -33,6 +37,7 @@
     }
     .solutions-card-text {
       margin-top: 0.7rem;
+      font-weight: 400;
       font-size: var(--font-size-lg);
       color: rgb(59, 12, 152);
     }
@@ -42,18 +47,6 @@
 @media screen and (max-width: 1560px) {
   .solutions-card {
     width: 35%;
-    .solutions-card-img {
-
-    }
-    .solutions-card-content {
-
-      .solutions-card-title {
-
-      }
-      .solutions-card-text {
-
-      }
-    }
   }
 }
 

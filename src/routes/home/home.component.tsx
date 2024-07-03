@@ -1,4 +1,5 @@
 import Navigation from "../../components/navigation/navigation.component";
+import ContactSection from "../../components/sections/contact/contact-section.component";
 import SolutionsSection from "../../components/sections/solutions/solutions-section.component";
 import "./home.styles.scss";
 
@@ -16,12 +17,16 @@ const Home = () => {
               reliable technology? Netcraft can help. We specialise in VoIP
               systems, internet installation, and user-friendly training.
             </p>
-            <button>CALL US NOW</button>
+            <div className="hero-cta">
+              <h2 className="hero-cta-call-text">CALL NOW</h2>
+              <button className="hero-cta-btn">021 899 778</button>
+            </div>
           </div>
           <div></div>
         </div>
       </section>
       <SolutionsSection />
+      <ContactSection />
     </>
   );
 };
