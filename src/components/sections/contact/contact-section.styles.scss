@@ -1,4 +1,4 @@
-.contact-container {
+.contact-container.content-padding {
   display: flex;
   background-color: rgb(32, 26, 44);
   justify-content: center;
@@ -36,5 +36,12 @@
       font-size: var(--font-size-2xl);
       padding: 0.3rem 1rem 0.4rem 1rem;
     }
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .contact-container.content-padding {
+    flex-direction: column;
+    row-gap: 1rem;
   }
 }
