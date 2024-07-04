@@ -43,6 +43,7 @@
       font-weight: 300;
       padding: 1.8rem 1rem;
       border-bottom: solid 3px transparent;
+      transition: border-bottom .25s;
       &:hover {
         border-bottom: solid 3px yellow;
         cursor: pointer;
@@ -59,16 +60,19 @@
     }
 
     .solutions-dropdown-content {
-      display: none;
+      visibility: hidden;
+      opacity: 0;
       position: absolute;
       margin: 2rem 0 0 -1rem;
       background-color: #fcfbfe;
       z-index: 1;
+      transition: visibility 0s, opacity 0.25s linear;
       .nav-sub-link {
         padding: 1rem 1.5rem;
         font-weight: 400;
         color: rgb(85, 0, 255);
         border-bottom: solid 0.5px rgb(85, 0, 255, 10%);
+        transition: background-color .25s;
         &:last-child {
           border-bottom: 1px solid #fcfbfe;
         }
@@ -80,6 +84,8 @@
 
     .solutions-dropdown:hover .solutions-dropdown-content {
       display: flex;
+      visibility: visible;
+      opacity: 1;
       flex-direction: column;
     }
   }

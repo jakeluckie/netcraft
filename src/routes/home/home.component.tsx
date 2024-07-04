@@ -1,4 +1,5 @@
 import Navigation from "../../components/navigation/navigation.component";
+import AboutSection from "../../components/sections/about/about-section.component";
 import ContactSection from "../../components/sections/contact/contact-section.component";
 import SolutionsSection from "../../components/sections/solutions/solutions-section.component";
 import "./home.styles.scss";
@@ -27,6 +28,7 @@ const Home = () => {
       </section>
       <SolutionsSection />
       <ContactSection />
+      <AboutSection />
     </>
   );
 };
