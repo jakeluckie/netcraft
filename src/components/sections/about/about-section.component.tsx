@@ -12,7 +12,12 @@ const AboutSection = () => {
             quae, eius nisi enim, voluptate odit!
           </p>
         </div>
-        <img className="about-section-img" src="/office-tour-myob-nz-1000x677-2021-office-area_1.webp" />
+        <div className="about-section-img-bg">
+          <img
+            className="about-section-img"
+            src="/office-tour-myob-nz-1000x677-2021-office-area_1.webp"
+          />
+        </div>
       </section>
     </>
   );
