@@ -44,6 +44,10 @@ h1 {
   margin-bottom: var(--font-size-xl);
 }
 
+h4 {
+  font-size: var(--font-size-lg);
+}
+
 button {
   border-radius: 3px;
   border: 1px solid transparent;
