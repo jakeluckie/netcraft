@@ -10,8 +10,7 @@ const SolutionsCard = ({ solutions }: { solutions: any }) => {
         <div className="solutions-card-content">
           <h2 className="solutions-card-title">{solutions.title}</h2>
           <p className="solutions-card-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
-            provident aperiam excepturi et a nulla.
+            {solutions.description}
           </p>
         </div>
       </Link>

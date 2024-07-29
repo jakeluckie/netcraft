@@ -42,8 +42,8 @@ const Navigation = () => {
             <Link className="nav-sub-link" to={"/voip-systems"}>
               VOIP Systems
             </Link>
-            <Link className="nav-sub-link" to={"/internet-connections"}>
-              Internet Connections
+            <Link className="nav-sub-link" to={"/business-broadband"}>
+              Business Broadband
             </Link>
             <Link className="nav-sub-link" to={"/training"}>
               Training

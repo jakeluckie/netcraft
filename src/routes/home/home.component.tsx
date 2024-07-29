@@ -2,11 +2,13 @@ import Navigation from "../../components/navigation/navigation.component";
 import AboutSection from "../../components/sections/about/about-section.component";
 import ContactSection from "../../components/sections/contact/contact-section.component";
 import Footer from "../../components/sections/footer/footer.component";
+import { Link } from "react-router-dom";
 import SolutionsSection from "../../components/sections/solutions/solutions-section.component";
+import { Phone } from "@phosphor-icons/react";
 import "./home.styles.scss";
 
 const Home = () => {
-  document.title = "Netcraft - Bleeble";
+  document.title = "VOIP Phone Systems - Netcraft";
   return (
     <>
       <section className="home-container">
@@ -20,8 +22,17 @@ const Home = () => {
               systems, internet installation, and user-friendly training.
             </p>
             <div className="hero-cta">
-              <h2 className="hero-cta-call-text">CALL NOW</h2>
-              <button className="hero-cta-btn">021 899 778</button>
+              <Link className="hero-cta-link" to="tel:+6421899778">
+                <Phone
+                  className="hero-ph-icon"
+                  size={24}
+                  weight="duotone"
+                ></Phone>
+                <h2 className="hero-cta-call-text">Call Now</h2>
+                <button className="hero-cta-btn">
+                  <span className="hero-ph-txt">021 899 778</span>
+                </button>
+              </Link>
             </div>
           </div>
           <div></div>

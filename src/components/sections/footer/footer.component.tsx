@@ -18,7 +18,7 @@ const Footer = () => {
             <Link className="footer-link" to={"/voip-systems"}>
               <p>― VOIP Systems</p>
             </Link>
-            <Link className="footer-link" to={"/internet-connections"}>
+            <Link className="footer-link" to={"/business-broadband"}>
               <p>― Internet Connections</p>
             </Link>
             <Link className="footer-link" to={"/training"}>

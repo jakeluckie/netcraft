@@ -45,15 +45,10 @@
   }
 }
 
-@media screen and (max-width: 1560px) {
+@media screen and (max-width: 1286px) {
   .solutions-card {
-    width: 35%;
-  }
-}
-
-@media screen and (max-width: 1184px) {
-  .solutions-card {
-    width: 65%;
+    width: 269px;
+    height: 383.72px;
   }
 }
 
@@ -61,6 +56,7 @@
   .solutions-card {
     border-radius: 1rem;
     padding: 0.7rem;
+    height: 512px;
     .solutions-card-img {
       border-top-left-radius: 0.5rem;
       border-top-right-radius: 0.5rem;
@@ -84,6 +80,7 @@
 @media screen and (max-width: 479px) {
   .solutions-card {
     width: 100%;
+    height: auto;
     .solutions-card-content {
       padding: 1rem 1.2rem;
       .solutions-card-title {
