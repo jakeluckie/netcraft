@@ -65,3 +65,13 @@
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 860px) {
+  .solutions-container {
+    .solutions-section-intro {
+      .solutions-section-text {
+        padding: 0;
+      }
+    }
+  }
+}

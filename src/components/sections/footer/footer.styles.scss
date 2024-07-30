@@ -53,10 +53,14 @@
       align-items: center;
       div {
         border-right: none;
+        border-bottom: 0.5px dashed rgba(221, 255, 0, 0.176);
         width: 100%;
         align-items: center;
         .footer-link {
           text-align: center;
+        }
+        &:last-child {
+          border-bottom: 0;
         }
       }
     }

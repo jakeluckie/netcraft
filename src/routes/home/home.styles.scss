@@ -17,16 +17,19 @@
     display: flex;
     .hero-cta-link {
       display: flex;
-      flex-direction: row;
       align-items: center;
       color: white;
-      .hero-ph-icon {
-        margin-right: 0.5rem;
-      }
-      .hero-cta-call-text {
-        font-weight: 300;
-        padding-bottom: 3px;
-        margin-right: 1.5rem;
+      .hero-callnow-container {
+        display: flex;
+        align-items: center;
+        .hero-ph-icon {
+          margin-right: 0.5rem;
+        }
+        .hero-cta-call-text {
+          font-weight: 300;
+          padding-bottom: 3px;
+          margin-right: 1.5rem;
+        }
       }
       .hero-cta-btn {
         font-size: var(--font-size-2xl);
@@ -46,5 +49,13 @@
 @media screen and (max-width: 479px) {
   .hero-container {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero-cta {
+    .hero-cta-link {
+      flex-direction: column;
+    }
   }
 }

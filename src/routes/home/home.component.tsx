@@ -23,12 +23,15 @@ const Home = () => {
             </p>
             <div className="hero-cta">
               <Link className="hero-cta-link" to="tel:+6421899778">
-                <Phone
-                  className="hero-ph-icon"
-                  size={24}
-                  weight="duotone"
-                ></Phone>
-                <h2 className="hero-cta-call-text">Call Now</h2>
+                <div className="hero-callnow-container">
+                  <Phone
+                    className="hero-ph-icon"
+                    size={24}
+                    weight="duotone"
+                  ></Phone>
+                  <h2 className="hero-cta-call-text">Call Now</h2>
+                </div>
+
                 <button className="hero-cta-btn">
                   <span className="hero-ph-txt">021 899 778</span>
                 </button>

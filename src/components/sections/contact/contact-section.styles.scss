@@ -67,3 +67,16 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 530px) {
+  .contact-section {
+    .contact-container.content-padding {
+      .contact-section-callnow {
+        flex-direction: column;
+      }
+      .contact-section-email {
+        flex-direction: column;
+      }
+    }
+  }
+}

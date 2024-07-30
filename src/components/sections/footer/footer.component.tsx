@@ -27,16 +27,11 @@ const Footer = () => {
             <Link className="footer-link" to={"/consultancy"}>
               <p>― Consultancy</p>
             </Link>
-          </div>
-          <div className="footer-about">
             <Link className="footer-link" to={"/about"}>
               <h4>About</h4>
             </Link>
             <Link className="footer-link" to={"/testimonials"}>
               <h4>Testimonials</h4>
-            </Link>
-            <Link className="footer-link" to={"/contact"}>
-              <h4>Contact</h4>
             </Link>
           </div>
           <div className="footer-contact">
