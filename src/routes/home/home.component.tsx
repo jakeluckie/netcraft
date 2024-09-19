@@ -15,11 +15,11 @@ const Home = () => {
         <Navigation />
         <div className="home-hero content-padding">
           <div className="hero-container">
-            <h1 className="hero-h1">VOIP Phone Systems</h1>
+            <h1 className="hero-h1">VOIP phone experts</h1>
             <p className="hero-text">
               Looking for a smooth transition to clear communication and
               reliable technology? Netcraft can help. We specialise in VoIP
-              systems, internet installation, and user-friendly training.
+              systems, business broadband solutions, user-friendly training and consultancy.
             </p>
             <div className="hero-cta">
               <Link className="hero-cta-link" to="tel:+6421899778">
